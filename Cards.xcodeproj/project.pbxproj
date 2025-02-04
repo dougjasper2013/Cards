@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8046731A2D5248B5007C9DBB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804673192D5248B5007C9DBB /* Settings.swift */; };
+		8046731D2D524BED007C9DBB /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046731C2D524BED007C9DBB /* ColorExtensions.swift */; };
 		8057DCF62D50F92C00DEAB3F /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057DCF52D50F92C00DEAB3F /* CardsApp.swift */; };
 		8057DCF82D50F92C00DEAB3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057DCF72D50F92C00DEAB3F /* ContentView.swift */; };
 		8057DCFA2D50F92D00DEAB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8057DCF92D50F92D00DEAB3F /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		804673192D5248B5007C9DBB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8046731C2D524BED007C9DBB /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		8057DCF22D50F92C00DEAB3F /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8057DCF52D50F92C00DEAB3F /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		8057DCF72D50F92C00DEAB3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8046731B2D5248D2007C9DBB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				804673192D5248B5007C9DBB /* Settings.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8046731E2D524BF4007C9DBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8046731C2D524BED007C9DBB /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8057DCE92D50F92C00DEAB3F = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +92,8 @@
 				8057DCF92D50F92D00DEAB3F /* Assets.xcassets */,
 				8057DCFB2D50F92D00DEAB3F /* Preview Content */,
 				8057DD132D5115FE00DEAB3F /* Model */,
+				8046731B2D5248D2007C9DBB /* Config */,
+				8046731E2D524BF4007C9DBB /* Extensions */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -194,7 +216,9 @@
 				8057DD0A2D51026500DEAB3F /* ToolbarSelection.swift in Sources */,
 				8057DD0C2D5102DB00DEAB3F /* BottomToolbar.swift in Sources */,
 				8057DD122D5115F500DEAB3F /* Transform.swift in Sources */,
+				8046731A2D5248B5007C9DBB /* Settings.swift in Sources */,
 				8057DCF62D50F92C00DEAB3F /* CardsApp.swift in Sources */,
+				8046731D2D524BED007C9DBB /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
